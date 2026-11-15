@@ -16,7 +16,6 @@ export function Introduction() {
       </div>
       <div className="intro-content">
         <header className="intro-heading">
-          <span>01</span>
           <h1 id="introduction-title">Edwin Design Studio Introduction</h1>
         </header>
         <div className="intro-panels">
