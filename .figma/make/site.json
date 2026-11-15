@@ -1,0 +1,13 @@
+{
+  "description": "Rebuild and redesign Figma projects effortlessly, enabling designers to recreate and enhance their designs with ease and precision.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "icons": {
+    "icon": "/edwin-favicon.svg?v=2"
+  }
+}
