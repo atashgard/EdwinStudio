@@ -152,6 +152,8 @@ button, a { touch-action: manipulation; }
 .intro-panel .studio-body-copy, .studio-body-copy { font-family: var(--font-sans); font-size: 12px; font-weight: 300; }
 .studio-service-copy { letter-spacing: 0; }
 .intro-services li + li { margin-top: 5px; }
+.intro-services li { position: relative; padding-left: 1em; }
+.intro-services li::before { content: "\2022"; position: absolute; left: 0; color: currentColor; }
 /* Desktop: larger, balanced copy so both panels fill their height evenly. */
 @media (min-width: 1101px) {
   .intro-panels { grid-template-columns: 1.6fr 1fr; }
